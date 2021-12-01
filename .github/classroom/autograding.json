@@ -1,0 +1,34 @@
+{
+  "tests": [
+    {
+      "name": "naturalSort",
+      "setup": "",
+      "run": "gradle test --tests PointsTest.testNaturalSort",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 5
+    },
+    {
+      "name": "originSort",
+      "setup": "",
+      "run": "gradle test --tests PointsTest.testOriginSort",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 5
+    },
+    {
+      "name": "ySort",
+      "setup": "",
+      "run": "gradle test --tests PointsTest.testYSort",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 5
+    }
+  ]
+}
